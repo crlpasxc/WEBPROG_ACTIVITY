@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Carl Andrei Pascua's web developer portfolio and projects.">
+  <title>Carl Andrei Pascua | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="home">
+    <a class="brand" href="#home">CAP<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="navigation" id="navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#goals">Goals</a>
+      <a href="#contact" class="nav-contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">ASPIRING WEB DEVELOPER</p>
+        <h1>Building useful<br><span>digital experiences.</span></h1>
+        <p class="hero-description">Hi, I'm Carl Andrei Pascua, an Information Technology student who enjoys creating websites and learning new technologies.</p>
+        <a class="primary-button" href="#projects">Explore My Projects <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-card" aria-label="Developer introduction">
+        <div class="code-window">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <pre><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Carl Andrei"</span>,
+  focus: <span class="code-green">"Web Development"</span>,
+  learning: [
+    <span class="code-green">"HTML"</span>,
+    <span class="code-green">"CSS"</span>,
+    <span class="code-green">"JavaScript"</span>
+  ],
+  mindset: <span class="code-green">"Keep improving"</span>
+};</pre>
+        </div>
+        <div class="hero-note"><span class="status-dot"></span> Always learning. Always building.</div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-copy">
+        <p>My name is Carl Andrei Pascua, and I am an Information Technology student at National University. I am interested in web development, programming, and exploring how technology can solve everyday problems.</p>
+        <p>I enjoy working on practical projects, improving my coding skills, and creating websites that are useful and easy to navigate. I am continuously learning and looking forward to gaining more experience in the IT industry.</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I WORK WITH</p>
+        <h2>Technical Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card"><span>01</span><h3>HTML</h3><p>Structuring web pages</p></div>
+        <div class="skill-card"><span>02</span><h3>CSS</h3><p>Styling and responsive layouts</p></div>
+        <div class="skill-card"><span>03</span><h3>JavaScript</h3><p>Interactive web features</p></div>
+        <div class="skill-card"><span>04</span><h3>Python</h3><p>Programming fundamentals</p></div>
+        <div class="skill-card"><span>05</span><h3>Java</h3><p>Object-oriented programming</p></div>
+        <div class="skill-card"><span>06</span><h3>SQL</h3><p>Database fundamentals</p></div>
+        <div class="skill-card"><span>07</span><h3>Git & GitHub</h3><p>Version control</p></div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">MY LEARNING JOURNEY</p>
+        <h2>Education</h2>
+      </div>
+      <div class="education-panel">
+        <div><span class="detail-label">SCHOOL</span><strong>National University</strong></div>
+        <div><span class="detail-label">PROGRAM</span><strong>Bachelor of Science in Information Technology</strong></div>
+        <div><span class="detail-label">YEAR LEVEL</span><strong>College Student</strong></div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>My Projects</h2>
+        <p class="section-intro">A look at some of the websites and systems I have worked on.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <a class="project-image" href="assets/chronos.png" target="_blank" rel="noopener">
+            <img src="assets/chronos.png" alt="Screenshot of the Chronos watch and accessories website homepage">
+            <span class="image-hint">View screenshot ↗</span>
+          </a>
+          <div class="project-info">
+            <p class="project-type">E-COMMERCE WEBSITE</p>
+            <h3>Chronos</h3>
+            <p>A watch and accessories website concept featuring a bold hero section, navigation links, and a premium visual style.</p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>Web Design</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <a class="project-image" href="assets/laptophub.png" target="_blank" rel="noopener">
+            <img src="assets/laptophub.png" alt="Screenshot of the LaptopHub laptop shopping website homepage">
+            <span class="image-hint">View screenshot ↗</span>
+          </a>
+          <div class="project-info">
+            <p class="project-type">PRODUCT WEBSITE</p>
+            <h3>LaptopHub</h3>
+            <p>A laptop shopping website homepage designed to introduce products and help visitors explore available laptops.</p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section goals-section" id="goals">
+      <div class="section-heading">
+        <p class="eyebrow">WHERE I'M HEADED</p>
+        <h2>Career Goals</h2>
+      </div>
+      <ol class="goals-list">
+        <li><span>01</span><div><h3>Strengthen my skills</h3><p>Continue improving my programming and web development knowledge.</p></div></li>
+        <li><span>02</span><div><h3>Build meaningful projects</h3><p>Create useful, accessible, and user-friendly websites and applications.</p></div></li>
+        <li><span>03</span><div><h3>Grow as a professional</h3><p>Gain real-world experience and become a professional web or software developer.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Contact Me</h2>
+        <p class="section-intro">Have a question or want to connect? Send me a message.</p>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-details">
+          <h3>Get in touch</h3>
+          <p>You can reach me through email.</p>
+          <a href="mailto:yourname@example.com">yourname@example.com</a>
+        </div>
+        <form id="contactForm">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="Enter your name" required>
+          <label for="email">Your email</label>
+          <input id="email" name="email" type="email" placeholder="Enter your email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+          <button class="primary-button" type="submit">Prepare Email <span aria-hidden="true">↗</span></button>
+          <p class="form-note" id="formNote">This form opens your default email application; it does not store messages.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#home">CAP<span>.</span></a>
+    <p>© <span id="year">2026</span> Carl Andrei Pascua. All rights reserved.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+</body>
+</html>
